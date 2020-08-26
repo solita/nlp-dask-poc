@@ -6,7 +6,7 @@ https://docs.dask.org/en/latest/setup/kubernetes.html
 
 ## Files
 
-`config.yaml` 
+[`config.yaml`](config.yaml)
 
 A configuration for Helm to set limits and extra pip / conda
 packages to use in Dask cluster. Taken from
