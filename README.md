@@ -38,7 +38,7 @@ helm repo update
 
 [Dask](https://helm.dask.org)
 ```
-helm install dask dask/dask
+helm install dask dask/dask -f config.yaml
 kubectl get services
 NAME             TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)           AGE
 dask-jupyter     ClusterIP   10.109.68.3    <none>        80/TCP            52s
