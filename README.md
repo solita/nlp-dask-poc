@@ -11,11 +11,11 @@ https://docs.dask.org/en/latest/setup/kubernetes.html
 A configuration for Helm to set limits and extra pip / conda
 packages to use in Dask cluster. Taken from
 https://docs.dask.org/en/latest/setup/kubernetes-helm.html#configure-environment.
-- Lowered the CPU requirement to run on Docker with only 8 cores allocated.
+- Lowered the CPU requirement to run on Docker with only 8 cores allocated. However you may still run out of CPUs when upgrading the cluster (for example `helm upgrade ...` )
 
 ## Requirements
 
-Docker with at least 9 CPU cores, 20 GB ram. I had 100 GB disk allocated, I do not know a minimum.
+Docker with at least 9 CPU cores, 25 GB ram. I had 100 GB disk allocated, I do not know a minimum.
 
 ## Procedures
 
