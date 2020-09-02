@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Kubeflow
+kubeflow/kfctl
+kubeflow/my-kubeflow-depl
